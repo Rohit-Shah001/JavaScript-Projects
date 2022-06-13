@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 24vw;
+    margin: auto; 
+    margin-top: 12px;
+}
+.box{
+    border: 2px solid black;
+    height: 6rem;
+    width: 6rem;
+    display: grid;
+    text-align: center;
+    font-size: 2.5rem;
+    place-items: center;
+}
+.winner-container{
+    display: block;
+    margin: auto;
+    width: 13rem;
+    margin-top: 10px;
+    font-size: 1.9rem;
+}
+.btn{
+    padding: 9px 9px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    background: #1c1c1c;
+    color: aliceblue;
+    border-radius: 9px;
+    cursor: pointer;
+}
