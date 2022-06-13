@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+}
+.mole{
+    background: url('mole.png') no-repeat center center/contain;
+}
